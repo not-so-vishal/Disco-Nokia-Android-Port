@@ -9,11 +9,16 @@ This project aims to bring the original Nokia mobile game Disco to Android as an
 **This is an actual port, not just an emulator wrapper.**
 
 The original game's code has been adapted to work within an Android application. The project includes Android-side rendering, input handling, and compatibility implementations for the Java ME APIs used by the game.
+<img width="162" height="162" alt="401959" src="https://github.com/user-attachments/assets/ab40fab6-4a46-4bc6-a432-9489e2586042" />
+<img width="1272" height="2772" alt="404294" src="https://github.com/user-attachments/assets/13a35912-4171-4330-93a4-2dc470ba3ea7" />
+<img width="1272" height="2772" alt="404264" src="https://github.com/user-attachments/assets/822112c3-dbae-402e-a1cb-c7a6b77da996" />
+<img width="1272" height="2772" alt="404269" src="https://github.com/user-attachments/assets/0045d639-2fc2-4ccb-9b56-8606ede87eeb" />
 
 This is a **vibe-coded project**, developed with AI assistance to help write, adapt, debug, and improve the code.
 
 ## Features
 
+- Cheat Engine !
 - Android application built with the Android development toolchain
 - Adapted original game logic
 - Android-side graphics rendering and input handling
