@@ -1,0 +1,3 @@
+package com.nokia.mid.ui;
+import javax.microedition.lcdui.Graphics; import javax.microedition.lcdui.Image;
+public class DirectGraphics { public static final int FLIP_HORIZONTAL=0x2000,FLIP_VERTICAL=0x4000,ROTATE_90=90,ROTATE_180=180,ROTATE_270=270; private final Graphics g; DirectGraphics(Graphics g){this.g=g;} public void drawImage(Image i,int x,int y,int anchor,int manipulation){g.drawImage(i,x,y,anchor,manipulation);} public void setARGBColor(int argb){g.setARGBColor((argb>>>24)&255,(argb>>>16)&255,(argb>>>8)&255,argb&255);} public void drawRGB(int[] rgb,int offset,int scan,int x,int y,int w,int h,boolean alpha){g.drawRGB(rgb,offset,scan,x,y,w,h,alpha);} }
